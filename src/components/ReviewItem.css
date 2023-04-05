@@ -1,0 +1,42 @@
+.item{
+    display: flex;
+    height: 120px;
+    padding: 15px;
+    border-radius: 10px;
+    width:700px;
+    margin:10px 0;
+    background-color: rgb(44, 29, 7);
+    justify-content: space-between;
+    color:white;
+    column-gap: 20px;
+    align-items: center;
+   
+}
+.infoDiv{
+    flex-grow: 1;
+}
+.infoDiv p{
+    margin:0;
+}
+.infoDiv h1{
+    margin:0;
+    font-size: 30px;
+}
+.item img{
+    width:125px;
+    border-radius: 10px;
+}
+.trashBtn{
+    color:rgb(255, 66, 66);
+    background-color: rgb(255, 159, 159);
+    border:none;
+    outline: none;
+    font-size: 25px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
